@@ -141,3 +141,24 @@ nav ul li a {
 .description {
   color: rgb(127, 134, 136);
 }
+
+.clients-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.testimonial-container {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.person-img img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
