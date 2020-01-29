@@ -153,6 +153,27 @@ nav ul li a {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.testimonial-says {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.testimonial-says h2 {
+  padding-bottom: 1rem;
+}
+
+.card {
+  padding: 1.5rem;
+  background: #f8f8f8;
+  height: 450px;
+  border-radius: 8px;
+}
+
+.card h3 {
+  text-align: center;
+  padding: 1rem 0 0.5rem 0;
+}
+
 .person-img img {
   width: 200px;
   height: 200px;
@@ -161,4 +182,10 @@ nav ul li a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
 }
