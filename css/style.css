@@ -34,10 +34,6 @@ body {
   grid-template-columns: 1fr 2fr 1fr;
 }
 
-/* .navbar-container > div {
-  margin: auto;
-} */
-
 .company {
   padding-left: 1.3rem;
 }
@@ -252,7 +248,90 @@ nav ul li a {
   border: 1px solid var(--primary-color) !important;
 }
 
-.footer-container {
-  background: var(--primary-color);
+.describe-card h2 {
+  padding: 0 0 1rem 0;
+}
+
+.typewriter {
+  color: var(--primary-color);
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 0.15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.1em; /* Adjust as needed */
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.describe-card p {
+  padding: 0 0 1rem 0;
+}
+
+.card-list {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.list-support ul {
+  padding-top: 1rem;
+}
+
+.list-support li {
+  padding-bottom: 1rem;
+  list-style: none;
+}
+
+.list-support i {
+  padding-right: 1rem;
+  color: var(--primary-color);
+}
+
+footer {
+  background: var(--primary-color);
+  color: white;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+}
+
+.footer-item h2 {
+  padding-bottom: 1rem;
+}
+
+.footer-item p {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.footer-item li {
+  padding-bottom: 0.75rem;
+  list-style: none;
+}
+
+.social-media li {
+  list-style: none;
+  display: inline-block;
+  padding: 1rem 1rem 0 0;
 }

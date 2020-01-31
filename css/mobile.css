@@ -1,0 +1,106 @@
+@media (max-width: 768px) {
+  nav {
+    padding-left: 1.3rem;
+  }
+  .navbar-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: start;
+  }
+
+  .main-menu ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 1rem;
+  }
+
+  .company {
+    padding-left: 0;
+  }
+
+  .pricing ul {
+    padding-left: 0;
+  }
+
+  .showcase-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .welcome {
+    left: 0;
+    top: 1%;
+    width: 100%;
+  }
+
+  .overview {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+
+  .works-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .clients-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+
+  .testimonial-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .contact-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .contact-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .form-card input {
+    width: 100%;
+  }
+
+  .form-card label {
+    display: none;
+  }
+
+  .form-card textarea {
+    width: 100%;
+  }
+
+  .describe-card {
+    display: grid;
+  }
+
+  .typewriter {
+    white-space: pre-line;
+  }
+
+  .card-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .list-support ul {
+    padding-top: 0;
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+  }
+}
